@@ -152,7 +152,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+   
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,6 +466,17 @@
     color: var(--light);
 }
 
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
 .footer .footer-menu a {
     margin-right: 15px;
     padding-right: 15px;
